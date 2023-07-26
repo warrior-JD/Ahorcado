@@ -21,7 +21,7 @@ public class AppAhorcado {
 
             if (Character.isLetter(letra)) {
                 if (!juego.letraEnLaPalabra(letra)) {
-                    System.out.println("Letra incorrecta.");
+                    System.out.println("Letras incorrecta.");
                 }
             } else {
                 System.out.println("por favor introducir una letra correcta");
